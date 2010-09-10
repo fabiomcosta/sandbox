@@ -5,7 +5,12 @@ using namespace std;
 using namespace ns;
 
 int main(){
-	Testable test(5);
-	test.addDirection(10).addDirection(11);
-	cout<< test.getDirection()<< " "<< test.testable();
+	Testable test(1);
+	// test chaining
+	test.addDirection(2).addDirection(3);
+	
+	Testable test1(4);
+	
+	// test operator overloading
+	cout<< test + test1;
 }
