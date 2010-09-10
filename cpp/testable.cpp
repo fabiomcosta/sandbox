@@ -1,4 +1,3 @@
-#include <iostream>
 #include "testable.h"
 
 ns::Testable::Testable(int i) : ns::Test::Test(i){

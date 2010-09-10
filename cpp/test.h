@@ -1,5 +1,3 @@
-#include <iostream>
-
 #ifndef NS_TEST_H_
 #define NS_TEST_H_
 

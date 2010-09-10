@@ -1,4 +1,3 @@
-#include <iostream>
 #include "test.h"
 
 ns::Test::Test(int dir) {
